@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Menu"
+    tools:showIn="@layout/activity_menu">
+
+    <Button
+        android:id="@+id/Historial_ID"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:text="Historial"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/Favoritos_ID"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:text="Favoritos"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/Videos_ID"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:text="Videos"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:id="@+id/Menu_ID"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="283dp" />
+</android.support.constraint.ConstraintLayout>
